@@ -1,0 +1,11 @@
+input:
+PS S:\python\Issue_3_unittest> python -m unittest -v
+output:
+test_fit_transform_equal (test_issue_3.TestFitTransform) ... ok
+test_fit_transform_exception (test_issue_3.TestFitTransform) ... ok
+test_fit_transform_notin (test_issue_3.TestFitTransform) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

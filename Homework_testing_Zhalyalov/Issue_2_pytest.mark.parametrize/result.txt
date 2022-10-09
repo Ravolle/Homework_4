@@ -1,0 +1,15 @@
+input:
+PS S:\python\Issue_2_pytest.mark.parametrize> python -m pytest -v test_Issue2_parametrize.py
+output:
+======================================================================== test session starts =========================================================================
+platform win32 -- Python 3.10.4, pytest-7.1.3, pluggy-1.0.0 -- S:\Issue_2_pytest.mark.parametrize\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: S:\python\Issue_2_pytest.mark.parametrize
+collected 4 items                                                                                                                                                      
+
+test_Issue2_parametrize.py::test_decode[-.-. .-. .. -. --. .-CRINGE] PASSED                                                                                     [ 25%] 
+test_Issue2_parametrize.py::test_decode[.- .-. - ..- .-. .---- ..--- ----- ---..-ARTUR1208] PASSED                                                              [ 50%] 
+test_Issue2_parametrize.py::test_decode[ -] PASSED                                                                                                              [ 75%] 
+test_Issue2_parametrize.py::test_decode[-.--. -.--.--()] PASSED                                                                                                 [100%] 
+
+========================================================================= 4 passed in 0.01s ========================================================================== 

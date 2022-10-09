@@ -1,0 +1,31 @@
+input:
+PS S:\python\Issue_1_doctest> python -m doctest -o NORMALIZE_WHITESPACE -v Issue_1
+_doctest1.py
+output:
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode('ЛОДКА')
+Expecting:
+    Traceback (most recent call last):
+        ...
+    KeyError: 'Л'
+ok
+Trying:
+    encode('ПОМОГИ') # doctest: +IGNORE_EXCEPTION_DETAIL
+Expecting:
+    Traceback (most recent call last):
+        ...
+    KeyError: 'Л'
+ok
+2 items had no tests:
+    Issue_1_doctest1
+    Issue_1_doctest1.decode
+1 items passed all tests:
+   3 tests in Issue_1_doctest1.encode
+3 tests in 3 items.
+3 passed and 0 failed.
+Test passed.
